@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(222, 26%, 31%);
+}
+
+.calc {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+   
+}
+
+.result {
+    text-align: right;
+    height: 70px;
+    background-color: hsl(224, 36%, 15%) ;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.buttons {
+    padding-top: 30px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.actions{
+    grid-template-columns: 6fr 6fr;
+    display: flex;
+    
+}
+
+
+.input {
+    background-color:hsl(223, 31%, 20%) ;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 1px;
+   
+}
+
+.delete{
+    background-color:  hsl(225, 21%, 49%) ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+}
+
+.number{
+   background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+}
+
+.operator{
+     background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+}
+
+.addition{
+       background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+
+}
+
+.substraction{
+    background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+}
+
+.multiplication{
+    background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+}
+
+.division{
+    background-color:  hsl(0, 0%, 90%);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 80px; 
+}
+.resetter{
+     background-color:hsl(223, 31%, 20%) ;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 1px;
+}
+.reset{
+     background-color:  hsl(225, 21%, 49%) ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 40px;
+    width: 180px;
+}
+.equalizer{
+    background-color:hsl(223, 31%, 20%) ;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 1px;
+   padding-left: 20px;
+}
+
+.equal{
+    background-color:  hsl(6, 63%, 50%);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+   padding-right: 10px;
+    height: 40px;
+    width: 180px;
+    margin-left: 10px;
+}
+
